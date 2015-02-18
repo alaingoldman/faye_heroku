@@ -6,3 +6,7 @@ gem 'thin'
 gem 'rails','3.2.12'
 gem 'private_pub'
 gem 'foreman'
+
+group :production do
+  gem 'heroku-deflater'
+end
